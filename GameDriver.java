@@ -21,10 +21,6 @@ public class GameDriver {
         this.npc = new Monster("Ooze", 20, 1);
     }
 
-    public void display_actions() {
-        // FIXME this should have something to do with what has happened so far
-    }
-
     public void display_help() {
         System.out.println("Valid Commands for this program are as follows");
         // FIXME: add more
@@ -140,8 +136,6 @@ public class GameDriver {
             } else {
                 System.out.println("That was an invalid command, for a list of valid commands, please type \"help\".");
             }
-
-            display_actions();
 
             player_input = scan.next();
             player_input = player_input.toLowerCase();
