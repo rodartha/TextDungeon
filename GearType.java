@@ -1,0 +1,3 @@
+public enum GearType {
+    MAINHAND, OFFHAND, CHEST, PANTS, HELMET, GLOVES, BOOTS
+}
