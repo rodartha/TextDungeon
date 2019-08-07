@@ -1,3 +1,8 @@
+import utility.*;
+import items.*;
+import character.*;
+import generators.*;
+
 import java.util.Scanner; 
 
 public class GameDriver {
